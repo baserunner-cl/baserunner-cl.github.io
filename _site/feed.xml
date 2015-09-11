@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mediator</title>
+    <description>A Jekyll theme - Medium inspired
+</description>
+    <link>http://http://baserunner-cl.github.io/</link>
+    <atom:link href="http://http://baserunner-cl.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sat, 12 Sep 2015 00:10:26 +0800</pubDate>
+    <lastBuildDate>Sat, 12 Sep 2015 00:10:26 +0800</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>First Post</title>
+        <description>&lt;h1&gt;Mediator Formats and CSS features&lt;/h1&gt;
+
+&lt;p&gt;Examples for different formats and css features&lt;/p&gt;
+
+&lt;h1&gt;Header Formats&lt;/h1&gt;
+
+&lt;h1&gt;Header1&lt;/h1&gt;
+
+&lt;h2&gt;Header2&lt;/h2&gt;
+
+&lt;h1&gt;Blockquotes&lt;/h1&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1&gt;Lists&lt;/h1&gt;
+
+&lt;h2&gt;orderd lists&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;one&lt;/li&gt;
+&lt;li&gt;two&lt;/li&gt;
+&lt;li&gt;three&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2&gt;unorderd lists&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Apple&lt;/li&gt;
+&lt;li&gt;Banana&lt;/li&gt;
+&lt;li&gt;Plum&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1&gt;Links&lt;/h1&gt;
+
+&lt;p&gt;This is an &lt;a href=&quot;http://example.com/&quot; title=&quot;With a Title&quot;&gt;example link&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1&gt;Combinations&lt;/h1&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Apple&lt;/li&gt;
+&lt;li&gt;Banana&lt;/li&gt;
+&lt;li&gt;Plum&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Fri, 11 Sep 2015 08:30:30 +0800</pubDate>
+        <link>http://http://baserunner-cl.github.io/mediator/feature/2015/09/11/first-post.html</link>
+        <guid isPermaLink="true">http://http://baserunner-cl.github.io/mediator/feature/2015/09/11/first-post.html</guid>
+        
+        <category>featured</category>
+        
+        
+        <category>mediator</category>
+        
+        <category>feature</category>
+        
+      </item>
+    
+  </channel>
+</rss>
