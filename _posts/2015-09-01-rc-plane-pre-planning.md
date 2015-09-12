@@ -1,12 +1,12 @@
 ---
-author: ameyjadiye
+author: colinlai
 layout: post
-title: "RC Plane - Preplan"
-date: 2015-09-01 09:00
+title: "Start blogging with jekyll"
+date: 2015-09-12 19:00
 comments: true
-category: Embedded
+category: jekyll
 tags:
-- Embedded
+- jekyll
 ---
 
 Flying is a great hobby, and i been always a technology hobbyist :)
