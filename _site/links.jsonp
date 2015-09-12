@@ -1,8 +1,0 @@
-callback([
-
-  {
-    "text": "Start blogging with jekyll",
-    "href": "http://baserunner-cl.github.io/jekyll/2015/09/12/rc-plane-pre-planning/"
-  } 
-
-])
