@@ -1,218 +1,365 @@
 <!DOCTYPE html>
 <html>
+<head>
+<meta charset="utf-8">
+<title>BLOG &vert; CODEINVENTORY</title>
+<meta name="description" content="CodeInventory">
+<meta name="keywords" content="Amey, Jadiye, CodeInvemtory">
 
-  <head>
-  <meta charset="utf-8">
-  <!-- (1) Optimize for mobile versions: http://goo.gl/EOpFl -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- (1) force latest IE rendering engine: bit.ly/1c8EiC9 -->
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://baserunner-cl.github.io/images/logo.png">
+<meta name="twitter:title" content="BLOG">
+<meta name="twitter:description" content="CodeInventory">
+<meta name="twitter:creator" content="@ameyjadiye">
 
-  <title>Mediator</title>
-  <meta name="description" content="A Jekyll theme - Medium inspired
-" />
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="BLOG">
+<meta property="og:description" content="CodeInventory">
+<meta property="og:url" content="http://baserunner-cl.github.io/">
+<meta property="og:site_name" content="CodeInventory">
+<meta property="og:image" content="http://baserunner-cl.github.io/images/">
 
-  <meta name="HandheldFriendly" content="True" />
-  <meta name="MobileOptimized" content="320" />
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@dirkfabisch" />
-    <meta name="twitter:title" content="Mediator" />
-    <meta name="twitter:image" content="http://http://baserunner-cl.github.io/assets/images/df_logo.jpg" />
-    
-    <meta name="twitter:description" content="A Jekyll theme - Medium inspired" />
-    
-  
-  
-  <meta property="og:site_name" content="Mediator" />
-  <meta property="og:title" content="Mediator"/>
-  
-  <meta property="og:description" content="A Jekyll theme - Medium inspired" />
-  
-  <meta property="og:image" content="http://http://baserunner-cl.github.io/assets/images/df_logo.jpg" />
-  <meta property="og:url" content="http://http://baserunner-cl.github.io/" >
-  <meta property="og:type" content="blog" />
-  
 
-  <link rel="canonical" href="http://http://baserunner-cl.github.io/">
 
-  <link rel="shortcut icon" href="/assets/images/favicon.ico">
-  <link rel="stylesheet" href="//brick.a.ssl.fastly.net/Linux+Libertine:400,400i,700,700i/Open+Sans:400,400i,700,700i">
-  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
-  <link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />
-  <link rel="stylesheet" type="text/css" media="print" href="/css/print.css" />
+
+<link rel="canonical" href="http://baserunner-cl.github.io/">
+<link href="http://baserunner-cl.github.io/feed.xml" type="application/atom+xml" rel="alternate" title="CodeInventory Feed">
+<link rel="author" href="https://plus.google.com/u/0/+AmeyJadiye?rel=author">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,600,300,800,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="http://baserunner-cl.github.io/assets/css/vendor/font-awesome.min.css">
+    <link rel="stylesheet" href="http://baserunner-cl.github.io/assets/css/vendor/normalize.css">
+    <link rel="stylesheet" href="http://baserunner-cl.github.io/assets/css/vendor/nprogress.css">
+    <link rel="stylesheet" href="http://baserunner-cl.github.io/assets/css/vendor/foundation.min.css">
+    <link rel="stylesheet" href="http://baserunner-cl.github.io/assets/css/style.css">
+    <link rel="stylesheet" href="http://baserunner-cl.github.io/assets/css/post.css">
+
+
+
+
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://baserunner-cl.github.io/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://baserunner-cl.github.io/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://baserunner-cl.github.io/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://baserunner-cl.github.io/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://baserunner-cl.github.io/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://baserunner-cl.github.io/images/apple-touch-icon-144x144-precomposed.png">
+
 </head>
-
-
-  <body>
-
-    <!-- header start -->
-
-<a href="http://http://baserunner-cl.github.io" class="logo-readium"><span class="logo" style="background-image: url(/assets/images/df_logo.jpg)"></span></a>
-
-<!-- header end -->
-
-
-    <!-- content start -->
-
-    <div class="page-content">
-      <div class="wrapper">
-        <div class="teaserimage">
-    <div class="teaserimage-image" style="background-image: url(/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg)">
-        Teaser Image
+<body class="home-template" itemscope itemtype="http://schema.org/WebPage">
+<header class="notepad-site-head">
+    <div class="notepad-site-head-menu">
+        <a class="notepad-blog-logo" href="http://baserunner-cl.github.io"><img src="http://baserunner-cl.github.io/images/logo.png" alt="Blog Logo" /></a>
+        
+        
+        <div class="notepad-blog-menu">      
+    <div class="notepad-mobile-menu show-for-small">
+        <a href="#"><i class="fa fa-bars"></i></a>
     </div>
-</div>
+    <ul class="notepad-menu">
+        <li class="notepad-mobile-close-btn show-for-small text-right">
+            <a href="#"><i class="fa fa-times"></i></a>
+        </li>
 
-<header class="blog-header">
-    
-      <a class="blog-logo" href="http://http://baserunner-cl.github.io" style="background-image: url('/assets/images/df_logo.jpg')">Mediator</a>
-    
-    <h1 class="blog-title">Mediator</h1>
-    <h2 class="blog-description">A Jekyll theme - Medium inspired
-</h2>
-    <div class="custom-links">
-      
-        
-            <a class="icon-twitter" href="https://twitter.com/dirkfabisch"  title="Follow me on twitter"">
-              <i class="fa fa-twitter"></i>
-            </a>
-            &nbsp;&nbsp;·&nbsp;&nbsp;
-        
-      
-        
-            <a class="icon-github" href="https://github.com/dirkfabisch"  title="Fork me on github"">
-              <i class="fa fa-github"></i>
-            </a>
-            &nbsp;&nbsp;·&nbsp;&nbsp;
-        
-      
-      <a href="/about/">About</a>
+            <li>
+            <a href="http://baserunner-cl.github.io/">Home</a>
+             </li>
+
+            <li>
+            <a href="http://baserunner-cl.github.io/tags">Tags</a>
+             </li>
+
+            <li>
+            <a href="http://baserunner-cl.github.io/about">About</a>
+             </li>
+            
+           <li><a href="http://baserunner-cl.github.io/feed.xml" title="Atom/RSS feed"><i class="icon-rss"></i> Feed</a></li>
+    </ul>
+</div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="notepad-site-head-content" >
+        <div class="notepad-site-head-bg"></div>
+        <h1 class="notepad-blog-title">
+            <span class="notepad-site-head-title-bg">
+                CodeInventory
+            </span>
+        </h1>
+        <h2 class="notepad-blog-description">Nerd's feeder!</h2>
     </div>
 </header>
 
 
-<main class="content" role="main">
+<main class="notepad-content" role="main">
 
-    
-    <h5 class="index-headline featured"><span>Featured</span></h5>
-
-    <div class="container featured">
-      
-        <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
-          <div class="article-item">
-            <header class="post-header">
-              <h2 class="post-title" itemprop="name"><a href="/mediator/feature/2015/09/11/first-post.html" itemprop="url">First Post</a></h2>
+            
+	
+    <article class="notepad-index-post post row">
+        <div class="small-12 medium-3 large-2 columns datetime">
+            <span class="notepad-post-meta">
+                <time datetime="2015-09-01T09:00:00+08:00">
+                    <span class="day">
+                        01
+                    </span>
+                    <span class="month-year">
+                        September 2015
+                    </span>
+                </time>
+            </span>
+        </div>
+        <div class="small-12 medium-9 large-10 columns">
+            <header class="notepad-post-header">
+                <h3 class="notepad-post-title">
+                    <a href="http://baserunner-cl.github.io/embedded/2015/09/01/rc-plane-pre-planning/">
+                        RC Plane - Preplan
+                    </a>
+                </h3>
             </header>
-            <section class="post-excerpt" itemprop="description">
-              <p>Mediator Formats and CSS features Examples for different formats and css features Header Formats Header1 Header2 Blockquotes Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores...</p>
+            <section class="notepad-post-excerpt">
+                <p>Flying is a great hobby, and i been always a technology hobbyist :) Today i’m doing kickoff of rc plane builing as my hobby project, after tones of youtube and reading identified few components to buy. below list will explain...</p>
             </section>
-            <div class="post-meta">
-              <time datetime="11 September 2015">11 September 2015</time>
-  <!--            <span class="post-tags-set">on <span class="post-tag-">, <a href="/tag/"></a></span></span>-->
-            </div>
-          </div>
-        </article>
-      
-    </div>
-
-    <h5 class="index-headline normal"><span>Regular</span></h5>
-    
-
-    <div class="cf frame">
-      
-        <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
-          <div class="article-item">
-            <header class="post-header">
-              <h2 class="post-title" itemprop="name"><a href="/mediator/feature/2015/09/11/first-post.html" itemprop="url">First Post</a></h2>
+            
+                <div class="notepad-index-post-tags">
+                <a href="http://baserunner-cl.github.io/categories/index.html#embedded" title="Other posts from the Embedded category">Embedded</a>
+                    
+                </div>
+            
+        </div>
+    </article>
+	
+    <article class="notepad-index-post post row">
+        <div class="small-12 medium-3 large-2 columns datetime">
+            <span class="notepad-post-meta">
+                <time datetime="2015-05-10T20:00:00+08:00">
+                    <span class="day">
+                        10
+                    </span>
+                    <span class="month-year">
+                        May 2015
+                    </span>
+                </time>
+            </span>
+        </div>
+        <div class="small-12 medium-9 large-10 columns">
+            <header class="notepad-post-header">
+                <h3 class="notepad-post-title">
+                    <a href="http://baserunner-cl.github.io/analytics/2015/05/10/sentiment-analysis-with-R/">
+                        Sentiment analysis with R
+                    </a>
+                </h3>
             </header>
-            <section class="post-excerpt" itemprop="description">
-              <p>Mediator Formats and CSS features
-</p>
+            <section class="notepad-post-excerpt">
+                <p>With lot of free time i did a small project based on WhatsApp group chat sentiment analysis with ‘R’. R is a great language for statistical calculations and analytics, this small code sample can show you a showcase usefullness of...</p>
             </section>
-            <div class="post-meta">
-              <time datetime="11 September 2015">11 September 2015</time>
-<!--            <span class="post-tags-set">on <span class="post-tag-">, <a href="/tag/"></a></span></span>-->
-            </div>
-          </div>
-        </article>
-      
-    </div>
-
+            
+                <div class="notepad-index-post-tags">
+                <a href="http://baserunner-cl.github.io/categories/index.html#analytics" title="Other posts from the Analytics category">Analytics</a>
+                    
+                </div>
+            
+        </div>
+    </article>
+	
+    <article class="notepad-index-post post row">
+        <div class="small-12 medium-3 large-2 columns datetime">
+            <span class="notepad-post-meta">
+                <time datetime="2015-04-01T18:45:00+08:00">
+                    <span class="day">
+                        01
+                    </span>
+                    <span class="month-year">
+                        April 2015
+                    </span>
+                </time>
+            </span>
+        </div>
+        <div class="small-12 medium-9 large-10 columns">
+            <header class="notepad-post-header">
+                <h3 class="notepad-post-title">
+                    <a href="http://baserunner-cl.github.io/linux/2015/04/01/alias-makes-life-easy/">
+                        Alias makes life easy
+                    </a>
+                </h3>
+            </header>
+            <section class="notepad-post-excerpt">
+                <p>From couple of years i’m using it but never thought its also shareable with community, alias is helping me shortning big and repeating commands, you just have to declare the short abbreviation of your short command and use it again...</p>
+            </section>
+            
+                <div class="notepad-index-post-tags">
+                <a href="http://baserunner-cl.github.io/categories/index.html#linux" title="Other posts from the Linux category">Linux</a>
+                    
+                </div>
+            
+        </div>
+    </article>
+	
+    <article class="notepad-index-post post row">
+        <div class="small-12 medium-3 large-2 columns datetime">
+            <span class="notepad-post-meta">
+                <time datetime="2014-12-31T11:36:00+08:00">
+                    <span class="day">
+                        31
+                    </span>
+                    <span class="month-year">
+                        December 2014
+                    </span>
+                </time>
+            </span>
+        </div>
+        <div class="small-12 medium-9 large-10 columns">
+            <header class="notepad-post-header">
+                <h3 class="notepad-post-title">
+                    <a href="http://baserunner-cl.github.io/linux/2014/12/31/working-with-git-patch/">
+                        Working with GIT patch
+                    </a>
+                </h3>
+            </header>
+            <section class="notepad-post-excerpt">
+                <p>My last post in 2014 ;), Working with git patches. Git is a famous versioning tool now days, many times you git access to work directly with your remote repo but few times you dont, Patch file is to save...</p>
+            </section>
+            
+                <div class="notepad-index-post-tags">
+                <a href="http://baserunner-cl.github.io/categories/index.html#linux" title="Other posts from the Linux category">Linux</a>
+                    
+                </div>
+            
+        </div>
+    </article>
+	
+    <article class="notepad-index-post post row">
+        <div class="small-12 medium-3 large-2 columns datetime">
+            <span class="notepad-post-meta">
+                <time datetime="2014-11-23T21:00:00+08:00">
+                    <span class="day">
+                        23
+                    </span>
+                    <span class="month-year">
+                        November 2014
+                    </span>
+                </time>
+            </span>
+        </div>
+        <div class="small-12 medium-9 large-10 columns">
+            <header class="notepad-post-header">
+                <h3 class="notepad-post-title">
+                    <a href="http://baserunner-cl.github.io/android/2014/11/23/install-lollipop-on-nexus-4/">
+                        Install lollipop 5.0 to Nexus 4
+                    </a>
+                </h3>
+            </header>
+            <section class="notepad-post-excerpt">
+                <p>Google takes lot of time to throw OTA update to your phone, may be they do it lot by lot for not loading their servers, if you are lucky you got it early else wait for may days :p. I...</p>
+            </section>
+            
+                <div class="notepad-index-post-tags">
+                <a href="http://baserunner-cl.github.io/categories/index.html#android" title="Other posts from the Android category">Android</a>
+                    
+                </div>
+            
+        </div>
+    </article>
+	
     <nav class="pagination" role="navigation">
-      
-      <span class="page-number">Page 1 of 1</span>
-      
-    </nav>
+    
+    <span class="newer-posts faded"><i class="fa fa-chevron-left"></i> Newer</span>
+    
 
+    
+    <span class="page-number">Page 1 of 3</span>
+    	 
+        <a class="older-posts" href="http://baserunner-cl.github.io/page2/">Older <i class="fa fa-chevron-right"></i></a>
+    	
+	</nav>
 
-    <!-- 
-     -->
 
 </main>
-
-      </div>
+    <footer class="notepad-site-footer">
+    <div class="copyright">
+        <section>All content copyright <a href="http://baserunner-cl.github.io/about">Colin Lai</a> &copy; 2015 &bull; All rights reserved.</section>
+	<p><a href='http://www.catb.org/hacker-emblem/' target="_blank"><img src='/assets/img/hacker.png' alt='hacker emblem' /></a>
+          <a href="http://endsoftpatents.org/innovating-without-patents" target="_blank"><img style="border-width:0" src="/assets/img/patent-free.png"></a></p>
     </div>
-
-    <!-- content end -->
-
-    <!-- footer start -->
-
-<footer class="site-footer">
-  <a class="subscribe" href="/feed.xml"> <span class="tooltip"> <i class="fa fa-rss"></i> Subscribe!</span></a>
-    <div class="inner">
-         <section class="copyright">All content copyright <a href="mailto:a-mail@mail.mail">Dirk Fabisch</a> &copy; 2015 &bull; All rights reserved.</section>
-         <section class="poweredby">Made with <a href="http://jekyllrb.com"> Jekyll</a></section>
+    <div class="social-icons">
+        
+        
+        <a href="http://twitter.com/ameyjadiye">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                <i class="fa fa-twitter fa-stack-1x"></i>
+            </span>
+        </a>
+        
+        
+        <a href="https://plus.google.com/u/0/+AmeyJadiye">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                <i class="fa fa-google-plus fa-stack-1x"></i>
+            </span>
+        </a>
+        
+        
+        <a href="http://instagram.com/ameyjadiye">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                <i class="fa fa-instagram fa-stack-1x"></i>
+            </span>
+        </a>
+        
+        
+        <a href="http://github.com/ameyjadiye">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                <i class="fa fa-github fa-stack-1x"></i>
+            </span>
+        </a>
+        
+        
+        <a href="http://facebook.com/ameyjadiye">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                <i class="fa fa-facebook fa-stack-1x"></i>
+            </span>
+        </a>
+        
     </div>
+    
+    <div class="cf"></div>
 </footer>
 
-<!-- footer end -->
 
-    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
-<script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
-<script type="text/javascript" src="/assets/js/index.js"></script>
-<script type="text/javascript" src="/assets/js/readingTime.min.js"></script>
-<script>
-(function ($) {
-  "use strict";
-  $(document).ready(function(){
-
-    var $window = $(window),
-    $image = $('.post-image-image, .teaserimage-image');
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="http://baserunner-cl.github.io/assets/js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+    <script src="http://baserunner-cl.github.io/assets/js/vendor/modernizr.js"></script>
+    <script src="http://baserunner-cl.github.io/assets/js/foundation.min.js"></script>
     
-      $window.on('scroll', function() {
-        var top = $window.scrollTop();
+    <script src="http://baserunner-cl.github.io/assets/js/notepad.js"></script>
+    <script src="http://baserunner-cl.github.io/assets/js/scripts.min.js"></script>
+    <script src="http://baserunner-cl.github.io/assets/js/vendor/nprogress.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/sigma.js/1.0.3/sigma.min.js"></script>
 
-        if (top < 0 || top > 1500) { return; }
-        $image
-          .css('transform', 'translate3d(0px, '+top/3+'px, 0px)')
-          .css('opacity', 1-Math.max(top/700, 0));
-      });
-      $window.trigger('scroll');
-
-      var height = $('.article-image').height();
-      $('.post-content').css('padding-top', height + 'px');
-
-      $('a[href*=#]:not([href=#])').click(function() {
-        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
-         && location.hostname == this.hostname) {
-          var target = $(this.hash);
-          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-          if (target.length) {
-            $('html,body').animate({ scrollTop: target.offset().top }, 500);
-            return false;
-          }
-        }
-      });
-
-  });
-}(jQuery));
-</script>
+    <script>
+      $(document).foundation();
+    </script>
 
 
-
-  </body>
-
+<script>NProgress.start();var interval=setInterval(function(){NProgress.inc()},1000);jQuery(window).load(function(){clearInterval(interval);NProgress.done()});jQuery(window).unload(function(){NProgress.start()});</script>
+  
+</body>
 </html>
