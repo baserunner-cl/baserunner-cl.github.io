@@ -1,4 +1,4 @@
-title:            CodeInventory
+title:            BaseRunner
 description:      "Nerd's feeder!"
 logo:             logo.png
 disqus_shortname: codeinventorycom
@@ -35,7 +35,6 @@ bing_verify:
 links:
   - title: Home
     url: /
-    external: false
     icon: home
   - title: Tags
     url: /tags

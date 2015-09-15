@@ -30,13 +30,16 @@ h1, h2, h3, h4, h5, h6 {
 header, main, footer {
   position: relative;
   z-index: 1; }
+header {
+  font-family: "Montserrat", sans-serif;
+}
 
 main, .notepad-share-icons, .notepad-disqus {
   background: white; }
-
 .animated-post {
   background: transparent; }
-
+.notepad-blog-logo {
+  text-decoration: none; }
 .notepad-blog-menu {
   padding-top: 0;
   padding-bottom: 0;
@@ -46,41 +49,41 @@ main, .notepad-share-icons, .notepad-disqus {
   font-weight: 400;
   font-size: 2.625rem;
   height: 5rem; }
-  .notepad-blog-menu .notepad-mobile-menu a {
-    display: inline-block;
-    outline: none;
-    color: black;
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem; }
-    .notepad-blog-menu .notepad-mobile-menu a:hover {
-      color: black; }
-  .notepad-blog-menu ul {
-    background: black;
-    position: absolute;
-    width: 100%;
-    -webkit-transform: translate3d(0, -110%, 0);
-    -ms-transform: translate3d(0, -110%, 0);
-    -moz-transform: translate3d(0, -110%, 0);
-    -o-transform: translate3d(0, -110%, 0);
-    transform: translate3d(0, -110%, 0);
-    top: 0;
-    left: 0;
-    list-style-type: none;
-    margin: 0;
-    width: 100%;
-    overflow: hidden;
-    -webkit-transition: -webkit-transform .3s;
-    transition: transform .3s;
-    padding-top: 0;
-    padding-bottom: 3.125rem; }
-    .notepad-blog-menu ul li {
-      display: block;
-      margin: 0;
-      width: 100%;
-      font-size: 2.25rem;
-      text-align: center;
-      padding: 0.3125rem; }
-      .notepad-blog-menu ul li a {
+.notepad-blog-menu .notepad-mobile-menu a {
+  display: inline-block;
+  outline: none;
+  color: black;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem; }
+.notepad-blog-menu .notepad-mobile-menu a:hover {
+  color: black; }
+.notepad-blog-menu ul {
+  background: black;
+  position: absolute;
+  width: 100%;
+  -webkit-transform: translate3d(0, -110%, 0);
+  -ms-transform: translate3d(0, -110%, 0);
+  -moz-transform: translate3d(0, -110%, 0);
+  -o-transform: translate3d(0, -110%, 0);
+  transform: translate3d(0, -110%, 0);
+  top: 0;
+  left: 0;
+  list-style-type: none;
+  margin: 0;
+  width: 100%;
+  overflow: hidden;
+  -webkit-transition: -webkit-transform .3s;
+  transition: transform .3s;
+  padding-top: 0;
+  padding-bottom: 3.125rem; }
+.notepad-blog-menu ul li {
+  display: block;
+  margin: 0;
+  width: 100%;
+  font-size: 2.25rem;
+  text-align: center;
+  padding: 0.3125rem; }
+.notepad-blog-menu ul li a {
         color: white;
         display: block;
         width: 100%;
@@ -137,9 +140,8 @@ main, .notepad-share-icons, .notepad-disqus {
   background: white;
   margin-left: 10px;
   margin-right: 10px;
-}
-.notepad-site-head .notepad-site-head-menu a {
-  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.625rem;
 }
 .notepad-site-head .notepad-site-head-menu .notepad-blog-logo {
   display: inline-block;
@@ -148,14 +150,12 @@ main, .notepad-share-icons, .notepad-disqus {
   padding-right: 0px;
   padding-top: 30px;
   margin-left: 20px;
-  max-height: 5rem;
-  height: 80px;
+  //max-height: 5rem;
+  //height: 80px;
   vertical-align: middle;
-  font-size: 1.2em;
   color: black;
+
 }
-.notepad-site-head .notepad-site-head-menu .notepad-blog-logo img {
-  max-height: 5rem; }
 .notepad-site-head .notepad-site-head-menu .title {
   display: inline-block;
   padding: 0;
@@ -163,10 +163,9 @@ main, .notepad-share-icons, .notepad-disqus {
   height: 5rem;
   line-height: 5rem;
   vertical-align: middle;
-  font-family: "Montserrat", sans-serif;
     font-size: 1.625rem;
-    font-weight: 700;
-    color: black;
+  font-weight: 700;
+  color: black;
     text-transform: uppercase;
     letter-spacing: -0.0625rem; }
     .notepad-site-head .notepad-site-head-menu .title a {
