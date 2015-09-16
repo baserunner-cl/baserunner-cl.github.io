@@ -21,11 +21,10 @@ owner:
   facebook:
   github:         baserunner-cl
   instagram:
-  # For Google Authorship https://plus.google.com/authorship
-  google_plus:    https://plus.google.com/u/0/+AmeyJadiye
+  google_plus:    https://plus.google.com/u/0/109685915775344348244
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:
+google_analytics:   UA-67721302-1
 google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
