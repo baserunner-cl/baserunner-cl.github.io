@@ -14,13 +14,10 @@ owner:
   name:           Colin Lai
   avatar:         baserunner-cl.png
   email:          baserunner.cl@gmail.com
-  # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
+  email_anti_robot: baserunner dot cl at gmail dot com
   description:    Programming is 1% knowledge, 2% ability and 97% getting the ability to work with the knowledge :)
-  # Social networking links used in footer. Update and remove as you like.
   twitter:
-  facebook:
   github:         baserunner-cl
-  instagram:
   google_plus:    https://plus.google.com/u/0/109685915775344348244
 
 # Analytics and webmaster tools stuff goes here
@@ -35,8 +32,8 @@ links:
   - title: Home
     url: /
     icon: home
-  - title: Tags
-    url: /tags
+  - title: Categories
+    url: /categories
   - title: About
     url: /about
 

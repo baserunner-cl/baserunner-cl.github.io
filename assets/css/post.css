@@ -355,8 +355,8 @@ html, body, .notepad-post-container, .notepad-post-header {
       .notepad-author-info .notepad-post-author > p a {
         color: #006699; }
     .notepad-author-info .notepad-post-author .notepad-post-author-avatar {
-      width: 12.5rem;
-      height: 12.5rem;
+      width: 6.25rem;
+      height: 6.25rem;
       border-radius: 50%;
       float: none;
       margin-right: 0;
@@ -378,63 +378,64 @@ html, body, .notepad-post-container, .notepad-post-header {
   color: white;
   position: relative;
   z-index: 9999; }
-  .notepad-page-menu-header .notepad-blog-logo,
-  .notepad-post-menu-header-simple .notepad-blog-logo {
-    display: inline-block;
-    max-height: 5rem; }
-    .notepad-page-menu-header .notepad-blog-logo img,
-    .notepad-post-menu-header-simple .notepad-blog-logo img {
-      max-height: 5rem; }
-
+.notepad-page-menu-header .notepad-blog-logo,
+.notepad-post-menu-header-simple .notepad-blog-logo {
+  display: inline-block;
+  max-height: 5rem; }
+.notepad-page-menu-header .notepad-blog-logo img,
+.notepad-post-menu-header-simple .notepad-blog-logo img {
+  max-height: 5rem; }
+.notepad-post-header-simple .notepad-post-menu-header-simple .notepad-blog-logo {
+  color: white; }
 .notepad-page-title,
 .notepad-post-title-simple {
   margin: 0 auto;
   width: 100%; }
-  .notepad-page-title a,
-  .notepad-post-title-simple a {
-    color: black; }
-    .notepad-page-title a:hover,
-    .notepad-post-title-simple a:hover {
-      color: #006699; }
+.notepad-page-title a,
+.notepad-post-title-simple a {
+  color: black; }
+.notepad-page-title a:hover,
+.notepad-post-title-simple a:hover {
+  color: #006699; }
+.notepad-page-title h1,
+.notepad-post-title-simple h1 {
+  color: black;
+  font-weight: 800;
+  font-size: 3.125rem;
+  padding: 0;
+  padding-top: 5rem;
+  padding-bottom: 4.375rem;
+  margin: 0 auto;
+  line-height: 1.1;
+  text-align: center;
+  text-transform: uppercase; }
+@media only screen and (min-width: 40.063em) {
   .notepad-page-title h1,
   .notepad-post-title-simple h1 {
-    color: black;
-    font-weight: 800;
-    font-size: 3.125rem;
-    padding: 0;
-    padding-top: 5rem;
-    padding-bottom: 4.375rem;
-    margin: 0 auto;
-    line-height: 1.1;
-    text-align: center;
-    text-transform: uppercase; }
-    @media only screen and (min-width: 40.063em) {
-      .notepad-page-title h1,
-      .notepad-post-title-simple h1 {
-        font-size: 4.375rem;
-        padding-top: 5.625rem;
-        padding-bottom: 5.625rem; } }
-    @media only screen and (min-width: 70em) {
-      .notepad-page-title h1,
-      .notepad-post-title-simple h1 {
-        padding-top: 6.875rem;
-        padding-bottom: 6.875rem; } }
-    @media only screen and (min-width: 90em) {
-      .notepad-page-title h1,
-      .notepad-post-title-simple h1 {
-        font-size: 5.3125rem;
-        padding-top: 8.125rem;
-        padding-bottom: 8.125rem; } }
-  .notepad-page-title .notepad-post-meta-simple,
-  .notepad-post-title-simple .notepad-post-meta-simple {
-    text-align: center;
-    padding-top: 5rem;
-    padding-bottom: 2.5rem; }
-    .notepad-page-title .notepad-post-meta-simple h1,
-    .notepad-post-title-simple .notepad-post-meta-simple h1 {
-      padding: 0; }
-    .notepad-page-title .notepad-post-meta-simple p.meta,
-    .notepad-post-title-simple .notepad-post-meta-simple p.meta {
+  font-size: 4.375rem;
+  padding-top: 5.625rem;
+  padding-bottom: 5.625rem; } }
+@media only screen and (min-width: 70em) {
+  .notepad-page-title h1,
+  .notepad-post-title-simple h1 {
+  padding-top: 6.875rem;
+  padding-bottom: 6.875rem; } }
+@media only screen and (min-width: 90em) {
+  .notepad-page-title h1,
+  .notepad-post-title-simple h1 {
+    font-size: 5.3125rem;
+    padding-top: 8.125rem;
+    padding-bottom: 8.125rem; } }
+.notepad-page-title .notepad-post-meta-simple,
+.notepad-post-title-simple .notepad-post-meta-simple {
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 2.5rem; }
+.notepad-page-title .notepad-post-meta-simple h1,
+.notepad-post-title-simple .notepad-post-meta-simple h1 {
+  padding: 0; }
+.notepad-page-title .notepad-post-meta-simple p.meta,
+.notepad-post-title-simple .notepad-post-meta-simple p.meta {
       padding-top: 0.625rem; }
     @media only screen and (min-width: 40.063em) {
       .notepad-page-title .notepad-post-meta-simple,

@@ -160,6 +160,9 @@ main, .notepad-share-icons, .notepad-disqus {
 .notepad-page-header .notepad-page-menu-header .notepad-blog-logo {
   color: white;
 }
+.notepad-post-header .notepad-post-menu-header .notepad-blog-logo {
+  color: white;
+}
 .notepad-site-head .notepad-site-head-menu .title {
   display: inline-block;
   padding: 0;
