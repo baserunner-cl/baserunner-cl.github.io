@@ -182,7 +182,8 @@ main, .notepad-share-icons, .notepad-disqus {
 .notepad-site-head .notepad-site-head-content {
   width: 100%;
   text-align: center;
-  background-color: black;
+  //background-color: black;
+  background-image: url("/images/background.jpg");
   background-size: cover; }
   .notepad-site-head .notepad-site-head-content.with-bg-cover {
     background-color: rgba(0, 0, 0, 0.7); }
@@ -191,17 +192,19 @@ main, .notepad-share-icons, .notepad-disqus {
     padding: 0.625rem;
     background: #006699;
     line-height: 1.1; }
-  .notepad-site-head .notepad-site-head-content h1, .notepad-site-head .notepad-site-head-content h2 {
+  .notepad-site-head .notepad-site-head-content h1,
+  .notepad-site-head .notepad-site-head-content h2 {
     margin: 0;
     padding: 0;
-    color: white;
     text-transform: uppercase; }
   .notepad-site-head .notepad-site-head-content h1 {
     padding-top: 4.375rem;
+    color: white;
     font-size: 0.875rem;
     margin-bottom: 0.9375rem; }
   .notepad-site-head .notepad-site-head-content h2 {
     font-size: 2.5rem;
+    color: seashell;
     padding-bottom: 5rem;
     font-weight: 700;
     line-height: 1.3; }
