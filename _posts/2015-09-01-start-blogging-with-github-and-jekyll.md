@@ -15,7 +15,7 @@ To start blogging with Github Pages, you could simply follow the steps mentioned
 
 Once the repository is created, you could start blogging and customize the blog with your own favourite style. Or you could reference one of the themes [here][jekyll-themes] if you are a lazy guy like me. (You could easily find which one I am referencing! Thank you for the good work by [Amey Jadiye][amey-jadiey]!)
 
-Happy bloggig now!!
+Happy blogging now!!
 
 [amey-jadiey]:       http://codeinventory.com/about/
 [wordpress]:         https://wordpress.org
